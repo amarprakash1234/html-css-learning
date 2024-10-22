@@ -6,12 +6,44 @@
         <title>Basic HTML</title>
         <link rel="icon" href="htmlicon.ico">
         <link rel="stylesheet" href="style.css">
+        <style>
+            th {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        </style>
     </head>
     <body>
 
-        <div id="box">
-            Hello world!!
-        </div>
+        <!-- A test table with merge cell -->
+        <table>
+            <caption>A test table with merge cell</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Gender</th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red eyes</th>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <th>Weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>male</th>
+                    <th>1.9</th>
+                    <th>0.003</th>
+                    <th>40&percnt;</th>
+                </tr>
+                <tr>
+                    <th>female</th>
+                    <th>1.7</th>
+                    <th>0.002</th>
+                    <th>43&percnt;</th>
+                </tr>
+            </tbody>
+        </table>
 
 
         
