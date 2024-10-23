@@ -1,7 +1,33 @@
-body {
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
     font-family: papyrus;
 }
 
+.box {
+    height: 120px;
+    width: 200px;
+    background-color: rgb(255, 255, 0);
+}
+
+@media (orientation:landscape) {
+    .box {
+        background-color: red;
+    }
+}
+
+
+
+
+
+/* .box:hover {
+    border-radius: 50%;
+    background-color: salmon;
+} */
 
 
 
